@@ -1,6 +1,6 @@
 {
   "name": "angie-tabs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Tabs widget for AngularJS",
   "main": "angie-tabs.js",
   "scripts": {
