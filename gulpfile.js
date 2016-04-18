@@ -10,7 +10,7 @@ var publishToNPM = require('gulp-npm-publish');
 
 gulp.task('build:css', function () {
     return gulp.src('angie-tabs.css')
-        .pipe(myth({ browsers: ['not ie <= 8'] }))
+        .pipe(myth())
         .pipe(csso())
         .pipe(rename({ suffix: '.min' }))
         .pipe(gulp.dest('.'));
