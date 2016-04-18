@@ -1,0 +1,23 @@
+{
+  "name": "angie-tabs",
+  "homepage": "https://github.com/achugaev93/angie-tabs",
+  "authors": [
+    "Alex Chugaev <achugaev93@gmail.com>"
+  ],
+  "description": "Angular tabs directive",
+  "main": "angie-tabs.js",
+  "keywords": [
+    "angular",
+    "tabs",
+    "directive"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/vendor",
+    "test",
+    "tests"
+  ]
+}
